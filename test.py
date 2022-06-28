@@ -31,6 +31,7 @@ lat = 40.5570944655325
 lon = -79.76340866622046
 r = owmapi.get_current_by_geo(lat, lon)
 print(r)
+print(r)
 
 r = owmapi.fail_current_by_geo(lat, lon)
 print(r)
